@@ -32,7 +32,7 @@ function ChatBox() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: 'Bearer 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',
+          Authorization: 'your-exposed-key',
           
         },
         body: JSON.stringify({
